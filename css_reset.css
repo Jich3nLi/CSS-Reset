@@ -1,23 +1,28 @@
 @import "modern-normalize";
 
+/*line height(the space between each line) changed to 1.5, the default was 1.15*/
 :root {
   line-height: 1.5;
 }
 
+/*Removing default margin*/
 h1, h2, h3, h4, h5, figure, p, ol, ul {
   margin: 0;
 }
 
+/*Remove default list styling, Remove numbers or bullet points*/
 ol[role="list"], ul[role="list"] {
   list-style: none;
   padding-inline: 0;
 }
 
+/*Resetting heading typography*/
 h1, h2, h3, h4, h5 {
   font-size: inherit;
   font-weight: inherit;
 }
 
+/*Responsive image, "sqeeze" the image without quality change*/
 img {
   display: block;
   max-inline-size: 100%;
